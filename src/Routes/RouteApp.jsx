@@ -33,7 +33,7 @@ function RouteApp() {
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/findadoctor' element={<FindADoc/>}/>
     <Route path='/services' element={<Services/>}/>
-    <Route path='/predict/:param' element={<Predict/>}/>
+    {/* <Route path='/predict/:param' element={<Predict/>}/> */}
     <Route path='/live' element={<Webinar/>}/>
 
    
